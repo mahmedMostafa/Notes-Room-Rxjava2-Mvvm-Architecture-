@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity implements IMainActivity {
         //hide any other fragment
         for (Fragment f : MainFragmentManager.getInstance().getFragments()) {
             if (f != null) {
-                if (!f.getTag().equals(fragment.getTag())) {
+                if (f.getTag() != null && !f.getTag().equals(fragment.getTag())) {
                     getSupportFragmentManager().beginTransaction().hide(f).commit();
                 }
             }
