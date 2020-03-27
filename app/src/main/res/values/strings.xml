@@ -11,6 +11,7 @@
     <string name="done">Done</string>
     <string name="add_note">Add Note</string>
     <string name="delete_all">Delete All</string>
-    <string name="update_note">Update Note</string>
     <string name="not_notes">No Notes</string>
+    <string name="notes_title">Notes</string>
+    <string name="update_note">Update Note</string>
 </resources>

@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#FFFF"
-        tools:context=".ui.addnote.AddNoteFragment">
+        tools:context=".ui.update.UpdateFragment">
 
 
         <androidx.appcompat.widget.Toolbar
@@ -42,7 +42,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginTop="20dp"
-            android:text="@string/add_a_note"
+            android:text="@string/update_note"
             android:textColor="?android:textColorPrimary"
             android:textSize="20sp"
             android:textStyle="bold"
@@ -80,7 +80,7 @@
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:background="@drawable/button_backgroun"
-            android:text="@string/add_note"
+            android:text="@string/update_note"
             android:textColor="#FFFF"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
