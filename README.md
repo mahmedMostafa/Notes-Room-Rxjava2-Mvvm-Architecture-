@@ -2,4 +2,4 @@
 
 
 This is a note application built with : MVVM , Rxjava2 , Room & Data Binding
-, i showed how you can manage the back stack of fragments and i used pure dependecy injection without any libraries for simplicity 
+, i used the motion system animation to transate between the fab and the add note view
